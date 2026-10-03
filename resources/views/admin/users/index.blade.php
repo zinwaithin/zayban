@@ -26,10 +26,7 @@
                                             <th>Phone</th>
                                             <th>Profile</th>
                                             <th>Email</th>
-                                            <th>Email_Verified_At</th>
-                                            <th>Password</th>
                                             <th>Role</th>
-                                            <th>Remember_Token</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
@@ -39,10 +36,7 @@
                                             <th>Phone</th>
                                             <th>Profile</th>
                                             <th>Email</th>
-                                            <th>Email_Verified_At</th>
-                                            <th>Password</th>
                                             <th>Role</th>
-                                            <th>Remember_Token</th>
                                         </tr>
                                     </tfoot>
                                 
@@ -58,10 +52,7 @@
                                             <td>{{$user->phone}}</td>
                                             <td>{{$user->profile}}</td>
                                             <td>{{$user->email}}</td>
-                                            <td>{{$user->email_verified_at}}</td>
-                                            <td>{{$user->password}}</td>
                                             <td>{{$user->role}}</td>
-                                            <td>{{$user->remember_token}}</td>
                                         </tr>
 
                                         @endforeach
