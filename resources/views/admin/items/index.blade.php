@@ -52,7 +52,7 @@
                                             <td>{{$item->name}}</td>
                                             <td>{{$item->price}}</td>
                                             <td>{{$item->in_stock}}</td>
-                                            <td>{{$item->category_id}}</td>
+                                            <td>{{$item->category->name}}</td>
                                         </tr>
 
                                         @endforeach
